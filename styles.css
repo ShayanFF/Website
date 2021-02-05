@@ -21,7 +21,7 @@ html, body {
     height: 85%;
 }
 
-.btn1{
+.btn{
     position: relative;
     top: 75%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,6 +34,10 @@ html, body {
     transition: 0.5s;
 }
 
-.btn1:hover{
+.btn:hover{
     background: lightblue;
+}
+
+#btn1:hover{
+
 }
