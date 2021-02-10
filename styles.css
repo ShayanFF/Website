@@ -1,43 +1,81 @@
 html, body {
-    height:100%;
+    /* height:100%; */
     margin:0px;
-    background-image: url(././background.jpg)
+    /* background-image: url(././background.jpg) */
 }
 
+.page{
+    width: 100vw;
+    height:100vh;
+    max-width: 100vw;
+
+    flex-direction: column;
+    background-image: url(./background.jpg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .title{
-    color: crimson;
-    background-color: yellow;
+    color: darkred;
     font-size: 100px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Arial';
     font-weight: bold;
-    margin: 0 auto;
     text-align: center;
-    height:15%;
-    width:100%;
+    height:15vh;
 }
 
 .buttons{
-    text-align: center;
-    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100vw;
 }
 
 .btn{
-    position: relative;
-    top: 75%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    padding: 10px 30px;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    font-family: 'Segoe UI' ;
     cursor: pointer;
-    margin: 15px;
-    color: blue;
-    border: solid lightblue;
-    transition: 0.5s;
+    margin: 0px;
+    position: relative;
+    width: 300px;
 }
-
+.btn:not(:last-child){
+    margin-right: 150px;
+}
 .btn:hover{
-    background: lightblue;
+opacity: 1;
 }
 
-#btn1:hover{
+.btn-image{
+    width: 300px;
+    display: block;
+    height:300px;
+    /* height: 200px; */
+}
+.btn-text{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    font-size: 50px;
+    font-family:'Lucida Sans';
+    color: black;
+    background-color: #fff5;
+    text-align: center;
+    transition: opacity 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
 
+.btn:hover>.btn-text{
+    opacity: 1;
 }
