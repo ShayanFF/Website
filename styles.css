@@ -22,10 +22,10 @@ html, body {
     text-align: center;
     height: 25vh;
     text-shadow:
-    -2px -2px 0 black,
-    2px -2px 0 black,
-    -2px 2px 0 black,
-    2px 2px 0 black;  
+    -3px -3px 0 black,
+    3px -3px 0 black,
+    -3px 3px 0 black,
+    3px 3px 0 black;  
 }
 
 .buttons{
@@ -53,8 +53,9 @@ html, body {
     width: 400px;
     display: block;
     height: 400px;
-    border: 2px solid black;
-    border-radius: 50%;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: black;
 }
 .btn-text{
     position: absolute;
