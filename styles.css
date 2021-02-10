@@ -1,7 +1,5 @@
 html, body {
-    /* height:100%; */
     margin:0px;
-    /* background-image: url(././background.jpg) */
 }
 
 .page{
@@ -35,7 +33,6 @@ html, body {
 
 .btn{
     justify-content: center;
-    /* align-items: center; */
     display: flex;
     font-family: 'Segoe UI' ;
     cursor: pointer;
@@ -51,23 +48,22 @@ opacity: 1;
 }
 
 .btn-image{
-    width: 300px;
+    width: 350px;
     display: block;
-    height:300px;
-    /* height: 200px; */
+    height:350px;
 }
 .btn-text{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left:50%;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 500px;
     font-size: 50px;
     font-family:'Lucida Sans';
     color: black;
-    background-color: #fff5;
+    background-color: rgba(255, 255, 255, 0.651);
     text-align: center;
     transition: opacity 0.5s;
     display: flex;
