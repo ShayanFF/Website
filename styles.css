@@ -6,6 +6,7 @@ html, body {
     width: 100vw;
     height:100vh;
     max-width: 100vw;
+    background-size: cover;
 
     flex-direction: column;
     background-image: url(./background.jpg);
@@ -16,7 +17,7 @@ html, body {
 }
 .title{
     color: rgba(255, 0, 0, 0.466);
-    font-size: 180px;
+    font-size: 200px;
     font-family:'Poppins';
     font-weight: bold;
     text-align: center;
@@ -45,13 +46,13 @@ html, body {
     width: 400px;
 }
 .btn:not(:last-child){
-    margin-right: -35px;
+    margin-right: -10px;
 }
 
 .btn-image{
-    width: 400px;
+    width: 450px;
     display: block;
-    height: 400px;
+    height: 450px;
     border: 3px solid black;
     border-radius: 100%;
     background-color: black;
@@ -61,8 +62,8 @@ html, body {
     transform: translate(-50%, -50%);
     top: 50%;
     left:50%;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 500px;
     font-size: 80px;
     font-family:'Poppins';
