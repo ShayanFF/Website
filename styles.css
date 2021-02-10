@@ -15,12 +15,17 @@ html, body {
     justify-content: center;
 }
 .title{
-    color: darkred;
-    font-size: 100px;
+    color: crimson;
+    font-size: 150px;
     font-family: 'Arial';
     font-weight: bold;
     text-align: center;
-    height:15vh;
+    height: 25vh;
+    text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;  
 }
 
 .buttons{
@@ -38,29 +43,28 @@ html, body {
     cursor: pointer;
     margin: 0px;
     position: relative;
-    width: 300px;
+    width: 400px;
 }
 .btn:not(:last-child){
-    margin-right: 150px;
-}
-.btn:hover{
-opacity: 1;
+    margin-right: -35px;
 }
 
 .btn-image{
-    width: 350px;
+    width: 400px;
     display: block;
-    height:350px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 .btn-text{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left:50%;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     border-radius: 500px;
-    font-size: 50px;
+    font-size: 75px;
     font-family:'Lucida Sans';
     color: black;
     background-color: rgba(255, 255, 255, 0.651);
