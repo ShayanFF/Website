@@ -15,7 +15,7 @@ html, body {
     justify-content: center;
 }
 .title{
-    color: crimson;
+    color: rgba(255, 0, 0, 0.466);
     font-size: 180px;
     font-family:'Poppins';
     font-weight: bold;
