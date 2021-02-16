@@ -17,12 +17,12 @@ html, body {
 }
 
 .title{
-    color: rgba(255, 0, 0, 0.466);
-    font-size: 200px;
+    color: crimson;
+    font-size: 180px;
     font-family:'Poppins';
     font-weight: bold;
     text-align: center;
-    height: 30vh;
+    height: 35vh;
     text-shadow:
     -3px -3px 0 black,
     3px -3px 0 black,
@@ -36,7 +36,6 @@ html, body {
     font-family:'Poppins';
     font-weight: bold;
     text-align: center;
-    text-shadow:
 }
 
 input[type=text], select, textarea {
@@ -87,13 +86,13 @@ input[type=submit]:hover {
     width: 400px;
 }
 .btn:not(:last-child){
-    margin-right: -10px;
+    margin-right: -80px;
 }
 
 .btn-image{
-    width: 450px;
+    width: 350px;
     display: block;
-    height: 450px;
+    height: 350px;
     border: 3px solid black;
     border-radius: 100%;
     background-color: black;
@@ -103,10 +102,10 @@ input[type=submit]:hover {
     transform: translate(-50%, -50%);
     top: 50%;
     left:50%;
-    width: 450px;
-    height: 450px;
-    border-radius: 500px;
-    font-size: 80px;
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;
+    font-size: 65px;
     font-family:'Poppins';
     color: black;
     background-color: rgba(255, 255, 255, 0.651);
