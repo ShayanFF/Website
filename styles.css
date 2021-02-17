@@ -120,3 +120,50 @@ input[type=submit]:hover {
 .btn:hover>.btn-text{
     opacity: 1;
 }
+
+
+
+
+
+.page2{
+    width: 100%;
+    height:100%;
+    background-size:cover;
+    background-image: url(./background.jpg);
+}
+
+.header{
+    font-family:'Poppins';
+    font-weight:bold;
+    size:100%;
+    padding-left:30px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    text-align: center;
+    float:left;
+}
+
+.header a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.right-header{
+    float:right;
+}
+
+.home-btn{
+    font-size:60px;
+    text-decoration: none;
+}
+
+.left-btn{
+    margin:15px;
+    font-size:30px;
+    text-decoration: none;
+}
+
+.right-btn{
+    width:4%;
+    height:4%;
+}
