@@ -133,14 +133,17 @@ input[type=submit]:hover {
 }
 
 .header{
-    font-family:'Poppins';
-    font-weight:bold;
-    size:100%;
-    padding-left:30px;
-    border-radius: 4px;
+    overflow:hidden;
+    padding: 20px 10px;
     background-color: #f1f1f1;
+}
+
+.header a{
+    float: left;
+    color: black;
     text-align: center;
-    float:left;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .header a:hover{
@@ -153,17 +156,32 @@ input[type=submit]:hover {
 }
 
 .home-btn{
+    padding: 30px;
+    line-height: 15px;
+    margin-right:20px;
     font-size:60px;
-    text-decoration: none;
 }
 
 .left-btn{
-    margin:15px;
+    line-height: 55px;
+    padding:10px;
     font-size:30px;
     text-decoration: none;
 }
 
 .right-btn{
-    width:4%;
-    height:4%;
+    width:50px;
+    height:50px;
+    padding:10px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
 }
