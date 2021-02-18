@@ -95,8 +95,10 @@ html, body {
 
 
 .page2{
-    width: 100%;
-    height:100%;
+    width: 100vw;
+    height:100vh;
+    background-size: cover;
+    background: radial-gradient(farthest-corner at 30vw 20vh,#ffffff 1%,#d3d3d3 100%);
 }
 
 .header{
@@ -197,4 +199,41 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: rgb(29, 29, 29);
+}
+
+.info{
+    position:absolute;
+    height: 90vh;
+    background-image: url(./snow.gif);
+}
+
+.shayan{
+    margin-top:9%;
+    margin-left:7%;
+    border-radius: 100%;
+    border: 5px solid rgb(56, 56, 56);
+    width:450px;
+    height:450px;
+    background-color: rgb(56, 56, 56);
+    animation: shayanFade ease 1.5s;
+    animation-iteration-count: 1; 
+    float:left;
+    margin-right: 50px;
+} 
+  
+@keyframes shayanFade { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+
+.text{
+    margin-top:9%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin-left: 25vw;
+    width:70vw;
 }
