@@ -165,7 +165,7 @@ input[type=submit]:hover {
 
 .info{
     position:absolute;
-    height: 90vh;
+    height:90vh;
     background-image: url(./snow.gif);
 }
 
@@ -191,12 +191,53 @@ input[type=submit]:hover {
      } 
 }
 
-.text{
-    margin-top:9%;
+.shayanTitle{
+    margin-top:8%;
+    margin-left:35vw;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 23px;
-    width:95vw;
-    white-space: pre-wrap;
+    font-size: 100px;
+    color:rgb(61, 61, 61);
+    animation: textFade ease 1.5s;
+    animation-iteration-count: 1; 
+}
+
+.shayanSubtitle{
+    margin-left:35vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    color:rgb(61, 61, 61);
+    animation: textFade ease 1.5s;
+    animation-iteration-count: 1; 
+}
+
+.text{
+    margin-left:35vw;
+    margin-top:3vh;
+    width:58vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color:rgb(61, 61, 61);
+    animation: textFade ease 1.5s;
+    animation-iteration-count: 1; 
+}
+
+.textBottom{
+    margin-left:35vw;
+    margin-top:5vh;
+    width:58vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color:rgb(61, 61, 61);
+    animation: textFade ease 1.5s;
+    animation-iteration-count: 1; 
+}
+
+.textContact{
+    margin-left:35vw;
+    margin-top:2.5vh;
+    width:58vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16.5px;
     color:rgb(61, 61, 61);
     animation: textFade ease 1.5s;
     animation-iteration-count: 1; 
